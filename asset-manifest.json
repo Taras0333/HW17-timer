@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HW17-timer/static/css/main.95c218f1.chunk.css",
+    "main.js": "/HW17-timer/static/js/main.bbf98b0b.chunk.js",
+    "main.js.map": "/HW17-timer/static/js/main.bbf98b0b.chunk.js.map",
+    "runtime-main.js": "/HW17-timer/static/js/runtime-main.882567a2.js",
+    "runtime-main.js.map": "/HW17-timer/static/js/runtime-main.882567a2.js.map",
+    "static/js/2.e1a0f1bd.chunk.js": "/HW17-timer/static/js/2.e1a0f1bd.chunk.js",
+    "static/js/2.e1a0f1bd.chunk.js.map": "/HW17-timer/static/js/2.e1a0f1bd.chunk.js.map",
+    "index.html": "/HW17-timer/index.html",
+    "precache-manifest.cf3fffae61d3b25277843405a4ad0e4f.js": "/HW17-timer/precache-manifest.cf3fffae61d3b25277843405a4ad0e4f.js",
+    "service-worker.js": "/HW17-timer/service-worker.js",
+    "static/css/main.95c218f1.chunk.css.map": "/HW17-timer/static/css/main.95c218f1.chunk.css.map",
+    "static/js/2.e1a0f1bd.chunk.js.LICENSE.txt": "/HW17-timer/static/js/2.e1a0f1bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.882567a2.js",
+    "static/js/2.e1a0f1bd.chunk.js",
+    "static/css/main.95c218f1.chunk.css",
+    "static/js/main.bbf98b0b.chunk.js"
+  ]
+}
