@@ -17,6 +17,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.whole {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 .timer {
   font-family: "ZCOOL QingKe HuangYou";
   color: white;
@@ -32,8 +38,9 @@ code {
 
   border-radius: 30px;
 }
+
 .btn {
-  width: 183px;
+  width: 179px;
   font-family: "ZCOOL QingKe HuangYou";
   font-size: 70px;
   color: white;
@@ -46,10 +53,16 @@ code {
   border-radius: 20px;
   margin-top: 10px;
 }
+.btn:first-child {
+  margin-right: 10px;
+}
 .btn:hover {
   color: crimson;
   border-color: crimson;
 }
 .btn:active {
   opacity: 0.5;
+}
+.wrap2 {
+  margin-top: 20px;
 }

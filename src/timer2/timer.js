@@ -9,6 +9,7 @@ class Timer extends React.Component {
     status2: false,
     width: 177,
     color: "#9acd32",
+    restart: false,
   };
 
   componentDidMount() {
@@ -27,6 +28,7 @@ class Timer extends React.Component {
     } else {
       return this.setState({
         width: this.state.width - 3,
+        restart: false,
       });
     }
   };
@@ -53,14 +55,16 @@ class Timer extends React.Component {
     });
     return this.state.status
       ? (this.timer = setInterval(this.changeTimer, 1000))
-      : clearInterval(this.timer);
+      : this.clear();
   };
   restart = () => {
     this.setState({
       sec: 59,
       width: 177,
+      restart: true,
     });
   };
+
   render() {
     return (
       <div className="wrap">
@@ -71,6 +75,7 @@ class Timer extends React.Component {
           toggle={this.toggle}
           state={this.state}
           restart={this.restart}
+          restartStatus={this.state.restart}
         />
       </div>
     );
